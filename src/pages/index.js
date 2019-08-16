@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 // Sections
-import Hero from "../components/sections/hero"
+import CourseGoal from "../components/sections/course-goal"
 import CourseInfos from "../components/sections/course-infos"
 import LessonsList from "../components/sections/lessons-list"
 import Faq from "../components/sections/faq"
@@ -12,7 +12,7 @@ import Faq from "../components/sections/faq"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero />
+    <CourseGoal />
     <CourseInfos />
     <LessonsList />
     <Faq />
