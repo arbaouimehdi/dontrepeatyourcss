@@ -19,7 +19,7 @@ const HeaderStyled = styled.header`
     text-align: center;
 
     p {
-      max-width: 400px;
+      max-width: 600px;
       margin: 20px auto;
     }
   }

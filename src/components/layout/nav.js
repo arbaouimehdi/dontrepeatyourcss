@@ -11,7 +11,7 @@ import Button from "../uis/button"
  * Style
  */
 const NavStyled = styled.nav`
-  margin-bottom: 32px;
+  margin-bottom: 50px;
 
   a {
     color: ${colors.primary.dark};
