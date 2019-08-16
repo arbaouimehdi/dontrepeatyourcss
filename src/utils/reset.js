@@ -16,7 +16,27 @@ const GloabalStyle = createGlobalStyle`
   }
 
   body {
-  font-family: ${latinFonts.body};
+    font-family: ${latinFonts.body};
+    color: #5B5D69;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Layout */
+  .container {
+    max-width: 1188px;
+    padding: 1rem 2em;
+    margin: auto;
   }
 `
 
