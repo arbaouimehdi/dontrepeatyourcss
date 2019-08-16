@@ -10,7 +10,7 @@ export const HeroIllustration = () => {
     query {
       placeholderImage: file(relativePath: { eq: "hero.png" }) {
         childImageSharp {
-          fluid(maxWidth: 800) {
+          fluid(maxWidth: 1188) {
             ...GatsbyImageSharpFluid
           }
         }
