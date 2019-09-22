@@ -60,6 +60,7 @@ const LessonsList = () => {
 					</p>
 				</div>
 				<LessonsFree />
+				{/* <LessonsPayed /> */}
 			</div>
 		</SectionStyled>
 	);

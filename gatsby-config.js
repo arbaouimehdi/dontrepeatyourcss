@@ -9,8 +9,16 @@ module.exports = {
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
+				name: `course-thumbnails`,
+				path: `${__dirname}/src/images/course-thumbnails`,
+			},
+		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
 				name: `images`,
 				path: `${__dirname}/src/images`,
+				ignore: [`course-thumbnail/**/*`],
 			},
 		},
 		`gatsby-transformer-sharp`,
