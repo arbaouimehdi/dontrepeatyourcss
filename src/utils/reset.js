@@ -1,9 +1,9 @@
-import React from "react"
-import { createGlobalStyle } from "styled-components"
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
 // Utils
-import { latinFonts } from "./fonts"
-import colors from "./colors"
+import { latinFonts } from "./fonts";
+import colors from "./colors";
 
 const GloabalStyle = createGlobalStyle`
   html {
@@ -30,6 +30,11 @@ const GloabalStyle = createGlobalStyle`
     font-feature-settings: 'onum' 1;
     font-weight: 400;
   }
+
+   p {
+     font-family: ${latinFonts.content};
+     font-weight: 300;
+   }
 
   *, ::after, ::before {
     box-sizing: border-box;
@@ -75,8 +80,8 @@ const GloabalStyle = createGlobalStyle`
     text-transform: uppercase;
     text-align: center;
   }
-`
+`;
 
 export const Reset = () => {
-  return <GloabalStyle />
-}
+	return <GloabalStyle />;
+};

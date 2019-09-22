@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 
 import { LessonThumb } from "../image";
 
-// Uitls
+// Utils
 import colors from "../../utils/colors";
 
 /**
@@ -24,20 +24,20 @@ const SectionStyled = styled.section`
 		}
 	}
 
-	.lesson--items {
+	.lesson__items {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 
-	.lesson--item {
+	.lesson__item {
 		padding: 15px;
 		min-width: 25%;
 	}
 
 	/* Responsive */
 	@media (max-width: 50rem) {
-		.lesson--item {
+		.lesson__item {
 			min-width: 100%;
 		}
 	}
@@ -170,11 +170,11 @@ const LessonsList = () => {
 						Captions are provided for every video
 					</p>
 				</div>
-				<div className="lesson--items">
+				<div className="lesson__items">
 					{lessonsThumbs.map((thumb, index) => {
 						return (
 							<div
-								className="lesson--item"
+								className="lesson__item"
 								key={index}
 							>
 								<Img
