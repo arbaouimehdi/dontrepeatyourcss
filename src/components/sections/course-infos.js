@@ -38,6 +38,23 @@ const SectionStyled = styled.section`
 	.item--picture {
 		margin-right: 2em;
 	}
+
+	/* Responsive */
+	@media (max-width: 50rem) {
+		.CourseInfos--item {
+			flex-direction: column !important;
+			margin-bottom: 1em;
+		}
+
+		.item--content,
+		.item--picture {
+			width: 100%;
+		}
+
+		.item--picture {
+			margin-bottom: 25px;
+		}
+	}
 `;
 
 const CourseInfos = () => {
