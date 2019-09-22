@@ -20,7 +20,7 @@ const SectionStyled = styled.section`
 	.FAQ__question {
 		border-left: 3px solid ${colors.primary.dark};
 		padding-left: 25px;
-		margin-bottom: 15px;
+		margin-bottom: 55px;
 
 		h3 {
 			color: ${colors.primary.dark};
@@ -46,12 +46,15 @@ const Faq = () => {
 
 	return (
 		<section>
-			<SectionStyled className="FAQ">
+			<SectionStyled className="FAQ" id="faq">
 				<div className="container">
 					<h2>do you have any questions?</h2>
 					<div className="FAQ--wrapper">
-						{questions.map(question => (
-							<div className="FAQ__question">
+						{questions.map((question, index) => (
+							<div
+								className="FAQ__question"
+								key={index}
+							>
 								<h3>{question.title}</h3>
 								<p>{question.content}</p>
 							</div>

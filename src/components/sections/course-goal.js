@@ -15,10 +15,9 @@ const SectionStyled = styled.section`
 	}
 
 	.CourseGoal--promo-video {
-		max-width: 832px;
+		max-width: 70%;
 		max-height: 372px;
 		margin-right: 40px;
-		/* order: 10px solid #fff; */
 		transform: rotate(2.1deg);
 		overflow: hidden;
 
@@ -43,6 +42,7 @@ const SectionStyled = styled.section`
 		}
 
 		.CourseGoal--promo-video {
+			max-width: 100%;
 			margin-right: 0;
 			margin-bottom: 10px;
 		}
@@ -54,15 +54,18 @@ const SectionStyled = styled.section`
  */
 const CourseGoal = () => {
 	return (
-		<SectionStyled className="CourseGoal">
+		<SectionStyled
+			className="CourseGoal"
+			id="course-goal"
+		>
 			<div className="container">
 				<h2>Course Goal</h2>
 				<div className="CourseGoal--infos">
 					<div className="CourseGoal--promo-video">
 						<video
 							preload="metadata"
-							poster="https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png"
-							src="https://a2.udemycdn.com/2019-06-09_23-55-13-fbafc102cfed5425999fe37c9e856505/WebHD_720p.mp4?nva=20190816213227&token=0c4f46446d7e24eac4e6d"
+							poster="https://res.cloudinary.com/dcuv7j5b8/image/upload/v1569177757/sass-poster_gsi38a.png"
+							src="https://player.vimeo.com/play/1484412474?s=361654967_1569176854_025260b28f4dce75968cea104139ef64"
 							controls
 						></video>
 					</div>

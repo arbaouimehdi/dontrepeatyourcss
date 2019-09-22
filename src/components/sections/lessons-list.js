@@ -161,7 +161,10 @@ const LessonsList = () => {
 	];
 
 	return (
-		<SectionStyled className="LessonsList">
+		<SectionStyled
+			className="LessonsList"
+			id="lessons-list"
+		>
 			<div className="container">
 				<h2>Lessons List</h2>
 				<div className="captions">
