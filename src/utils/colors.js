@@ -7,8 +7,8 @@ export default {
 		dark: "#71506B",
 	},
 	cta: {
-		light: "#d4d834",
-		dark: "#797b18",
+		bg: "#d318c6",
+		text: "#fff",
 	},
 	pattern: "#F6F7F5",
 };

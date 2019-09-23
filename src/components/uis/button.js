@@ -43,8 +43,8 @@ const ButtonStyled = styled.a`
 	}
 
 	&.btn-cta {
-		background-color: ${colors.cta.light};
-		color: ${colors.cta.dark};
+		background-color: ${colors.cta.bg};
+		color: ${colors.cta.text};
 	}
 
 	&.btn-outline {
