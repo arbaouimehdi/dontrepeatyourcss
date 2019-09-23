@@ -19,7 +19,7 @@ const LessonsFree = () => {
 				edges {
 					node {
 						childImageSharp {
-							fluid(maxWidth: 150) {
+							fluid(maxWidth: 300) {
 								...GatsbyImageSharpFluid_noBase64
 							}
 						}
