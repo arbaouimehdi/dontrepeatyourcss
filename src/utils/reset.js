@@ -55,6 +55,10 @@ const GloabalStyle = createGlobalStyle`
   p {
     line-height: 1.8em;
   }
+    
+  img {
+		filter: drop-shadow(13px 8px 0px #73304f);
+	}
   
   /* Layout */
   header.container {
